@@ -8,9 +8,11 @@ cargo build --release
 ```
 and move the binary to the root folder which contains the Shaders folder.
 
-
-- `a` — activate: type the character names to enable, space-separated. Everything else gets prefixed `DISABLED `.
-- `r` — revert: strips `DISABLED ` from everything.
+The user is prompted with 4 options which they may select by typing the corresponding number(1-4).
+Enable all
+Enable selected
+Disable selected
+Disable all
 
 Matching is case-insensitive substring.
 
